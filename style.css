@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://1.bp.blogspot.com/-JrKnPZchEEA/UjKjWHGbmnI/AAAAAAAAAfs/b5_3NewdUcs/s1600/hd+wallpapers+of+nature.jpg');
+    margin-top: 80px;
+
+}
+.container{
+    height: 360px;
+    width: 550px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+
+.timer{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#counter{
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: 800;
+}
+#counter{
+    text-shadow: 5px 0.25rem rgb(82, 73, 73);
+    color: rgb(251, 253, 254);
+}
+button{
+    height: 28px;
+    width: 100px;
+    border-radius: 50px;
+    border: 20px;
+    box-shadow: 5px 5px 5px  1px rgb(87, 86, 86);
+}
+button:hover{
+    background-color: bisque;
+}
